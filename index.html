@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>EXAM Planner</title>
+  <meta name="description" content="An editable EXAM 2027 study planner with a daily topic calendar, Grand Test log, progress tracking and calendar reminders.">
+  <meta name="theme-color" content="#285644">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EXAM Plan">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta property="og:title" content="EXAM Planner">
+  <meta property="og:description" content="An editable EXAM 2027 study planner with a daily topic calendar, Grand Test log and progress tracking.">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="icons/favicon-48.png">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" href="fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <img class="brand-mark" src="logo.svg" alt="" width="38" height="38">
+        <span>EXAM Planner</span>
+      </div>
+      <div class="top-meta">
+        <span class="dot"></span><span>PERSONAL STUDY DESK</span>
+        <span style="opacity:.38">/</span><span>EXAM 2027</span>
+      </div>
+    </header>
+
+    <div class="page-wrap">
+      <div class="hero-heading fade-in">
+        <div>
+          <div class="eyebrow" id="hero-eyebrow"></div>
+          <h1>One day at a time.</h1>
+        </div>
+        <div class="hero-actions">
+          <div class="date-stamp" id="countdown"></div>
+          <button class="export-btn" type="button" data-act="print">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></svg>
+            Download full timetable
+          </button>
+        </div>
+      </div>
+
+      <nav class="tabs" role="tablist" aria-label="Sections">
+        <button role="tab" id="tab-plan" data-act="tab" data-tab="plan">Plan</button>
+        <button role="tab" id="tab-progress" data-act="tab" data-tab="progress">Progress</button>
+        <button role="tab" id="tab-tests" data-act="tab" data-tab="tests">Grand Tests</button>
+      </nav>
+
+      <section id="view-plan" role="tabpanel" aria-labelledby="tab-plan">
+        <div class="dashboard-grid">
+          <section class="paper today-card fade-in" id="today" aria-label="Today"></section>
+          <section class="paper calendar-card" id="calendar" aria-label="Monthly study calendar"></section>
+        </div>
+        <div class="below-grid">
+          <section class="paper preview-card" id="editor" aria-label="Selected day plan"></section>
+          <aside class="side-stack" id="side"></aside>
+        </div>
+      </section>
+
+      <section id="view-progress" role="tabpanel" aria-labelledby="tab-progress" hidden></section>
+      <section id="view-tests" role="tabpanel" aria-labelledby="tab-tests" hidden></section>
+    </div>
+  </main>
+
+  <div id="print-root" aria-hidden="true"></div>
+  <div class="toast-msg" id="toast" role="status" hidden></div>
+  <input type="file" id="file-input" accept="application/json,.json" hidden>
+
+  <script src="plan-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
